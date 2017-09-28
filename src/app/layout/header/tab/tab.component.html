@@ -1,0 +1,8 @@
+<md2-tabs [selectedIndex]="tabsModel.activeTab">
+    <md2-tab [reallyTab]="menuTab" *ngFor="let menuTab of tabsModel.tabs">
+        <ng-template md2-tab-label>
+            <a>{{menuTab.name}}</a>
+            <i *ngIf="menuTab.link !== '/home'" class="material-icons" (click)="closeTab(menuTab)">close</i>
+        </ng-template>
+    </md2-tab>
+</md2-tabs>

@@ -1,0 +1,59 @@
+[
+    {
+        "name": "首页",
+        "icon": "home",
+        "link": "/home"
+    },
+    {
+        "name": "系统管理",
+        "icon": "star",
+        "submenu": [
+            {
+                "name": "人员管理",
+                "icon": "person",
+                "link": "/person-list"
+            }
+        ]
+    },
+    {
+        "name": "工具",
+        "icon": "brightness_7",
+        "submenu": [
+            {
+                "name": "图表",
+                "icon": "equalizer",
+                "link": "/charts"
+            },
+            {
+                "name": "地图",
+                "icon": "place",
+                "link": "/amap"
+            },
+            {
+                "name": "日程安排",
+                "icon": "date_range",
+                "link": "/calendar"
+            },
+            {
+                "name": "弹出框",
+                "icon": "sms",
+                "link": "/alert"
+            },
+            {
+                "name": "树结构",
+                "icon": "device_hub",
+                "link": "/tree"
+            },
+            {
+                "name": "流程图",
+                "icon": "widgets",
+                "link": "/jsplumb"
+            },
+            {
+                "name": "文本编辑器",
+                "icon": "mode_edit",
+                "link": "/ckeditor"
+            }
+        ]
+    }
+]

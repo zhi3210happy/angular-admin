@@ -1,0 +1,15 @@
+.display-form-container{
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+
+
+.form-inline-item{
+    margin-right:20px!important; 
+}
+
+.diaplay-from-footer{
+    width: 50%;
+    position: relative;
+}
