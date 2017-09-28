@@ -1,11 +1,11 @@
-# Angular4Admin
+# Angular4system
 
-基于Angular4的后台管理系统，使用Angular-cli构建。
+基于Angular4的后台管理系统，拥有完整的前后台增删改查，后台使用express+moogose，使用Angular-cli构建。
 
 # 使用
 
 ```
-git clone https://github.com/weihomechen/angular4-admin.git;
+git clone https://github.com/zhi3210happy/angular4-system.git;
 ```
 切换到项目目录，
 
@@ -16,10 +16,18 @@ git clone https://github.com/weihomechen/angular4-admin.git;
 // npm i -g @angular/cli
 npm install 
 ```
+安装后台：
+```
+cd server
+npm install
+npm run init(初始化数据)
+npm start
+```
 启动开发模式：
 ```
 ng serve
 ```
+
 如果顺利，项目会运行在本地 http://localhost:4200
 
 # 主要功能点
@@ -47,33 +55,26 @@ ng serve
 
 # 效果图
 
-![0.1.0_alpha](https://github.com/weihomechen/angular4-admin/blob/master/src/document/0.1.0_alpha.gif)
 
 #### 人员管理
-![person-list](http://oqtn5nfde.bkt.clouddn.com/person-list.png)
-
-#### Tab管理
-![tab](http://oqtn5nfde.bkt.clouddn.com/tab.png)
-
-#### 弹出框
-![alert](http://oqtn5nfde.bkt.clouddn.com/alert.png)
+![person-list](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu.png)
 
 #### 日程安排
-![calendar](http://oqtn5nfde.bkt.clouddn.com/calendar.png)
+![calendar](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu.png)
 
 #### 图表
-![echarts](http://oqtn5nfde.bkt.clouddn.com/echarts.png)
+![echarts](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu1.png)
 
 #### 流程图
-![jsplumb](http://oqtn5nfde.bkt.clouddn.com/jsplumb.png)
+![jsplumb](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu2.png)
 
 #### 树结构
-![ztree](http://oqtn5nfde.bkt.clouddn.com/ztree.png)
+![ztree](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu3.png)
 
 #### 地图
-![amap](http://oqtn5nfde.bkt.clouddn.com/amap.png)
+![amap](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu4.png)
 
-PS： 个人项目，一些琐碎的细节没有实现；与后台交互使用的是mock-data，增删改也是模拟成功返回；
+
 
 
 
