@@ -1,11 +1,11 @@
-# Angular4system
+# Angularsystem
 
-基于Angular4的后台管理系统，拥有完整的前后台增删改查，后台使用express+moogose，使用Angular-cli构建。
+基于Angular的后台管理系统，拥有完整的前后台增删改查，后台使用express+moogose，使用Angular-cli构建。
 
 # 使用
 
 ```
-git clone https://github.com/zhi3210happy/angular4-system.git;
+git clone https://github.com/zhi3210happy/angular-system.git;
 ```
 切换到项目目录，
 
@@ -32,7 +32,7 @@ ng serve
 
 # 主要功能点
 
-### angular4基本功能的使用
+### angular基本功能的使用
 ### 带管理功能可切换的tab
     - tab可管理；
     - 自定义路由重用机制
@@ -57,22 +57,22 @@ ng serve
 
 
 #### 人员管理
-![person-list](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu.png)
+![person-list](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu.png)
 
 #### 日程安排
-![calendar](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu.png)
+![calendar](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu.png)
 
 #### 图表
-![echarts](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu1.png)
+![echarts](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu1.png)
 
 #### 流程图
-![jsplumb](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu2.png)
+![jsplumb](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu2.png)
 
 #### 树结构
-![ztree](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu3.png)
+![ztree](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu3.png)
 
 #### 地图
-![amap](https://github.com/zhi3210happy/angular4-system/blob/master/src/jietu4.png)
+![amap](https://github.com/zhi3210happy/angular-system/blob/master/src/jietu4.png)
 
 
 
